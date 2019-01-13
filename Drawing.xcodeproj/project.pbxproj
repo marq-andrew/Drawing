@@ -10,6 +10,8 @@
 		40AC082B21EB71BE008F106F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AC082A21EB71BE008F106F /* AppDelegate.swift */; };
 		40AC082D21EB71C0008F106F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40AC082C21EB71C0008F106F /* Assets.xcassets */; };
 		40AC083021EB71C0008F106F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40AC082E21EB71C0008F106F /* MainMenu.xib */; };
+		40AC083D21EB7E78008F106F /* Drawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AC083C21EB7E78008F106F /* Drawing.swift */; };
+		40AC083F21EB8195008F106F /* doDrawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AC083E21EB8195008F106F /* doDrawing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		40AC082F21EB71C0008F106F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		40AC083121EB71C0008F106F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40AC083221EB71C0008F106F /* Drawing.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Drawing.entitlements; sourceTree = "<group>"; };
+		40AC083C21EB7E78008F106F /* Drawing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drawing.swift; sourceTree = "<group>"; };
+		40AC083E21EB8195008F106F /* doDrawing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doDrawing.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,12 +56,30 @@
 			isa = PBXGroup;
 			children = (
 				40AC082A21EB71BE008F106F /* AppDelegate.swift */,
+				40AC084021EBCE23008F106F /* View Controllers */,
+				40AC084121EBCE37008F106F /* Views */,
 				40AC082C21EB71C0008F106F /* Assets.xcassets */,
 				40AC082E21EB71C0008F106F /* MainMenu.xib */,
 				40AC083121EB71C0008F106F /* Info.plist */,
 				40AC083221EB71C0008F106F /* Drawing.entitlements */,
 			);
 			path = Drawing;
+			sourceTree = "<group>";
+		};
+		40AC084021EBCE23008F106F /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				40AC083C21EB7E78008F106F /* Drawing.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		40AC084121EBCE37008F106F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				40AC083E21EB8195008F106F /* doDrawing.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,6 +152,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40AC083F21EB8195008F106F /* doDrawing.swift in Sources */,
+				40AC083D21EB7E78008F106F /* Drawing.swift in Sources */,
 				40AC082B21EB71BE008F106F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
